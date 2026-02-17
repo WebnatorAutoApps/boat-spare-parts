@@ -1,0 +1,61 @@
+export interface Boat {
+  id: number;
+  name: string;
+  type: string;
+  length: number;
+  price: number;
+  imageUrl: string;
+}
+
+export const boats: Boat[] = [
+  { id: 1, name: "Sea Breeze 220", type: "Center Console", length: 22, price: 45000, imageUrl: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=600&h=400&fit=crop" },
+  { id: 2, name: "Ocean Runner 280", type: "Sportfisher", length: 28, price: 89000, imageUrl: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop" },
+  { id: 3, name: "Harbor Master 180", type: "Bowrider", length: 18, price: 32000, imageUrl: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=600&h=400&fit=crop" },
+  { id: 4, name: "Wind Chaser 350", type: "Sailboat", length: 35, price: 125000, imageUrl: "https://images.unsplash.com/photo-1540946485063-a40da27545f8?w=600&h=400&fit=crop" },
+  { id: 5, name: "Bay Explorer 240", type: "Deck Boat", length: 24, price: 55000, imageUrl: "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=600&h=400&fit=crop" },
+  { id: 6, name: "Coral Reef 200", type: "Center Console", length: 20, price: 38000, imageUrl: "https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?w=600&h=400&fit=crop" },
+  { id: 7, name: "Tide Rider 310", type: "Cabin Cruiser", length: 31, price: 115000, imageUrl: "https://images.unsplash.com/photo-1575224526797-5730d09d781d?w=600&h=400&fit=crop" },
+  { id: 8, name: "Sun Skipper 160", type: "Skiff", length: 16, price: 18000, imageUrl: "https://images.unsplash.com/photo-1622397863276-6e2a4f782fab?w=600&h=400&fit=crop" },
+  { id: 9, name: "Marlin Pro 260", type: "Sportfisher", length: 26, price: 72000, imageUrl: "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e?w=600&h=400&fit=crop" },
+  { id: 10, name: "Coastal Star 420", type: "Motor Yacht", length: 42, price: 285000, imageUrl: "https://images.unsplash.com/photo-1567627706516-36c1f8a8ab3d?w=600&h=400&fit=crop" },
+  { id: 11, name: "Wave Dancer 190", type: "Bowrider", length: 19, price: 35000, imageUrl: "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=600&h=400&fit=crop" },
+  { id: 12, name: "Deep Blue 300", type: "Sportfisher", length: 30, price: 98000, imageUrl: "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=600&h=400&fit=crop" },
+  { id: 13, name: "Pelican Bay 210", type: "Pontoon", length: 21, price: 42000, imageUrl: "https://images.unsplash.com/photo-1551524164-687a55ecee3e?w=600&h=400&fit=crop" },
+  { id: 14, name: "Neptune 380", type: "Sailboat", length: 38, price: 165000, imageUrl: "https://images.unsplash.com/photo-1534854638093-bada1813ca19?w=600&h=400&fit=crop" },
+  { id: 15, name: "Sunset Cruiser 270", type: "Cabin Cruiser", length: 27, price: 82000, imageUrl: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=600&h=400&fit=crop" },
+  { id: 16, name: "Angler Elite 230", type: "Center Console", length: 23, price: 52000, imageUrl: "https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=600&h=400&fit=crop" },
+  { id: 17, name: "Regatta 320", type: "Sailboat", length: 32, price: 135000, imageUrl: "https://images.unsplash.com/photo-1500514966906-fe245eea9344?w=600&h=400&fit=crop" },
+  { id: 18, name: "Island Hopper 250", type: "Deck Boat", length: 25, price: 58000, imageUrl: "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=600&h=400&fit=crop" },
+  { id: 19, name: "Thunder 400", type: "Performance", length: 40, price: 220000, imageUrl: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=600&h=400&fit=crop" },
+  { id: 20, name: "Fisherman's Pride 200", type: "Center Console", length: 20, price: 40000, imageUrl: "https://images.unsplash.com/photo-1544551763-77932f4ddbdb?w=600&h=400&fit=crop" },
+  { id: 21, name: "Marina Breeze 340", type: "Cabin Cruiser", length: 34, price: 145000, imageUrl: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=600&h=400&fit=crop" },
+  { id: 22, name: "Aqua Sport 170", type: "Skiff", length: 17, price: 22000, imageUrl: "https://images.unsplash.com/photo-1622397863276-6e2a4f782fab?w=600&h=400&fit=crop" },
+  { id: 23, name: "Pacific Voyager 450", type: "Motor Yacht", length: 45, price: 350000, imageUrl: "https://images.unsplash.com/photo-1567627706516-36c1f8a8ab3d?w=600&h=400&fit=crop" },
+  { id: 24, name: "Reef Runner 220", type: "Center Console", length: 22, price: 48000, imageUrl: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=600&h=400&fit=crop" },
+  { id: 25, name: "Starlight 360", type: "Sailboat", length: 36, price: 155000, imageUrl: "https://images.unsplash.com/photo-1540946485063-a40da27545f8?w=600&h=400&fit=crop" },
+  { id: 26, name: "Cove Cruiser 230", type: "Pontoon", length: 23, price: 46000, imageUrl: "https://images.unsplash.com/photo-1551524164-687a55ecee3e?w=600&h=400&fit=crop" },
+  { id: 27, name: "Barracuda 290", type: "Sportfisher", length: 29, price: 92000, imageUrl: "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e?w=600&h=400&fit=crop" },
+  { id: 28, name: "Drifter 180", type: "Bowrider", length: 18, price: 30000, imageUrl: "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=600&h=400&fit=crop" },
+  { id: 29, name: "Gulf Stream 500", type: "Motor Yacht", length: 50, price: 480000, imageUrl: "https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?w=600&h=400&fit=crop" },
+  { id: 30, name: "Compass Rose 280", type: "Cabin Cruiser", length: 28, price: 86000, imageUrl: "https://images.unsplash.com/photo-1575224526797-5730d09d781d?w=600&h=400&fit=crop" },
+  { id: 31, name: "Tradewind 300", type: "Sailboat", length: 30, price: 120000, imageUrl: "https://images.unsplash.com/photo-1534854638093-bada1813ca19?w=600&h=400&fit=crop" },
+  { id: 32, name: "Lagoon Master 260", type: "Deck Boat", length: 26, price: 62000, imageUrl: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=600&h=400&fit=crop" },
+  { id: 33, name: "Mako 240", type: "Center Console", length: 24, price: 56000, imageUrl: "https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=600&h=400&fit=crop" },
+  { id: 34, name: "Seahawk 150", type: "Skiff", length: 15, price: 15000, imageUrl: "https://images.unsplash.com/photo-1622397863276-6e2a4f782fab?w=600&h=400&fit=crop" },
+  { id: 35, name: "Blue Horizon 380", type: "Cabin Cruiser", length: 38, price: 175000, imageUrl: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=600&h=400&fit=crop" },
+  { id: 36, name: "Castaway 210", type: "Pontoon", length: 21, price: 39000, imageUrl: "https://images.unsplash.com/photo-1551524164-687a55ecee3e?w=600&h=400&fit=crop" },
+  { id: 37, name: "Kingfish 270", type: "Sportfisher", length: 27, price: 78000, imageUrl: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop" },
+  { id: 38, name: "Voyager 420", type: "Motor Yacht", length: 42, price: 295000, imageUrl: "https://images.unsplash.com/photo-1567627706516-36c1f8a8ab3d?w=600&h=400&fit=crop" },
+  { id: 39, name: "Liberty 340", type: "Sailboat", length: 34, price: 142000, imageUrl: "https://images.unsplash.com/photo-1500514966906-fe245eea9344?w=600&h=400&fit=crop" },
+  { id: 40, name: "Sandpiper 190", type: "Bowrider", length: 19, price: 33000, imageUrl: "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=600&h=400&fit=crop" },
+  { id: 41, name: "Hurricane 350", type: "Performance", length: 35, price: 195000, imageUrl: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=600&h=400&fit=crop" },
+  { id: 42, name: "Anchor Point 250", type: "Deck Boat", length: 25, price: 54000, imageUrl: "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=600&h=400&fit=crop" },
+  { id: 43, name: "Triton 310", type: "Sportfisher", length: 31, price: 105000, imageUrl: "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=600&h=400&fit=crop" },
+  { id: 44, name: "Silver Wake 220", type: "Center Console", length: 22, price: 47000, imageUrl: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=600&h=400&fit=crop" },
+  { id: 45, name: "Meridian 460", type: "Motor Yacht", length: 46, price: 375000, imageUrl: "https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?w=600&h=400&fit=crop" },
+  { id: 46, name: "Cape Horn 240", type: "Center Console", length: 24, price: 53000, imageUrl: "https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=600&h=400&fit=crop" },
+  { id: 47, name: "Corsair 370", type: "Sailboat", length: 37, price: 160000, imageUrl: "https://images.unsplash.com/photo-1540946485063-a40da27545f8?w=600&h=400&fit=crop" },
+  { id: 48, name: "Bayshore 200", type: "Pontoon", length: 20, price: 36000, imageUrl: "https://images.unsplash.com/photo-1551524164-687a55ecee3e?w=600&h=400&fit=crop" },
+  { id: 49, name: "Wahoo 280", type: "Sportfisher", length: 28, price: 85000, imageUrl: "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e?w=600&h=400&fit=crop" },
+  { id: 50, name: "Infinity 550", type: "Motor Yacht", length: 55, price: 620000, imageUrl: "https://images.unsplash.com/photo-1567627706516-36c1f8a8ab3d?w=600&h=400&fit=crop" },
+];

@@ -12,7 +12,7 @@ export default function Hero() {
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-4">
           <a
-            href="#catalog"
+            href="/catalog"
             className="rounded-md bg-zinc-900 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
           >
             Browse Catalog
